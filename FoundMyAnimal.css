@@ -1,0 +1,144 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.row, .container{
+	margin: 0px; padding: 0px; width: 100%;
+}
+section{
+	margin: 0px 50px 0px 50px;
+}
+#leashes, #collars, #accessories{
+	width: 890px;
+	margin: auto;
+}
+#leashes div, #collars div, #accessories div{
+	margin: 10px 0px 50px 0px;;
+}
+
+h2{
+	font-size: 30px;
+    font-family: "source sans pro", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: grey;
+    margin: 40px 0px 10px 0px;
+    }
+header{
+	background-color: #202020;
+	height: 80px;
+	padding: 10px;
+}
+ li{
+ 	text-decoration: none;
+	display: inline;
+	list-style-type: none;
+	color: gray;
+} 
+li:active, li:hover{
+	color: white;
+}
+.galleryItem {
+	max-width: 250px;
+    max-height: 250px;
+    position: relative;
+}
+.galleryItem img {
+    width: 100%;
+    height: 100%;
+}
+.galleryItem:hover .imgTitle {
+    opacity: 0.8;
+    background-color: white;
+    color: black;
+}
+
+.imgTitle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    opacity: 0.01;
+    /* display: none;  comment this out for CSS hover */
+    background-color: transparent white;
+    transition: all 0.5s ease;
+}
+.imgTitle h5 {
+    position: absolute;
+    color: #fff;
+    top: 33%;
+    width: 100%;
+    text-align: center;
+    }
+
+#instagram{
+	margin: 0px;
+	width: 100%;
+	overflow: hidden;
+	padding: 0px;
+}
+
+#instagram div{
+	float: left;
+	width: 20%;
+	overflow: hidden;
+}
+#instagram img{
+	width: 100%;
+	height: auto;
+}
+
+#clearFloat{clear: both; line-height: 0px; pading: 0px; margin: 0px;}
+
+#news{
+	width: 100%;
+	padding: 0px;
+}
+.imageDiv img{
+	height: 100px;
+	width: 200px;
+	border: 1px solid red;
+}
+
+/*
+#myCarousel{
+	position: relative;
+	top: 100px;
+}
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img {
+	width: 70%; margin: auto;
+	}
+	*/
+	
+	/* 
+		    Carousel 
+		<div id="myCarousel" class="carousel slide" data-ride= "carousel">
+		    <!-- Carousel Indicator -->
+		    <ol class= "carousel-indicators">
+		        <li data-target= "myCarousel" data-slide-to= "0" class= "active"></li>
+		        <li data-target= "myCarousel" data-slide-to= "1"></li>
+                <li data-target= "myCarousel" data-slide-to= "2"></li>
+                <li data-target= "myCarousel" data-slide-to= "3"></li>
+		    </ol>	
+		    <!-- Wrapper of slides -->
+            <div class="carousel-inner" role= "listbox">
+                <div class="item active"><img src= "img_FMA/bg1.jpg" alt="Image1" width= "460" height= "340"></div>
+                <div class= "item"><img src= "img_FMA/bg2.jpg" alt= "Image2" width= "460" height= "340"></div>
+                <div class= "item"><img src= "img_FMA/bg3.jpg" alt= "Image3" width= "460" height= "340"></div>
+                <div class= "item"><img src= "img_FMA/bg4.jpg" alt= "Image4" width= "460" height= "340"></div>
+           </div>
+           <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a> 
+    </div> --> 
+    */
